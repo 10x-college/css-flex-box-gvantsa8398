@@ -82,6 +82,14 @@ nav {
     background-color: #1D1D1D;
     margin-top: 15px;
     margin-bottom: 10px;
+    filter: brightness(0.95);
+    transition: 0.6s ease-in-out;
+}
+
+.box1:hover {
+    filter: brightness(1.00);
+    transform: scale(1.01);
+    box-shadow: 1px 10px 10px 1px #481d74;
 }
 
 .box2 {
@@ -91,6 +99,14 @@ nav {
     background-color: #1D1D1D;
     margin-top: 15px;
     margin-bottom: 10px;
+    filter: brightness(0.95);
+    transition: 0.6s ease-in-out;
+}
+
+.box2:hover {
+    filter: brightness(1.00);
+    transform: scale(1.01);
+    box-shadow: 1px 10px 10px 1px #438985;
 }
 
 .box3 {
@@ -98,7 +114,14 @@ nav {
     height: 157px;
     border-radius: 15px;
     background-color: #1D1D1D;
-    margin-top: 15px;
+    margin-top: 15px;filter: brightness(0.95);
+    transition: 0.6s ease-in-out;
+}
+
+.box3:hover {
+    filter: brightness(1.00);
+    transform: scale(1.01);
+    box-shadow: 1px 10px 10px 1px #b68b4d;
 }
 
 .box4 {
@@ -106,6 +129,14 @@ nav {
     height: 273px;
     border-radius: 15px;
     background-color: #1D1D1D;
+    filter: brightness(0.95);
+    transition: 0.6s ease-in-out;
+}
+
+.box4:hover {
+    filter: brightness(1.00);
+    transform: scale(1.01);
+    box-shadow: 1px 10px 10px 1px #3c3c3c;
 }
 
 .aside {
@@ -120,6 +151,8 @@ nav {
         top: -10px;
         position: relative;
         /*height: 296px;*/
+        filter: brightness(0.95);
+        transition: 0.6s ease-in-out;
     }
 }
 
